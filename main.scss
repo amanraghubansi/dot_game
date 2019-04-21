@@ -1,0 +1,112 @@
+* { padding: 0; margin: 0; }
+
+body{
+    font-family:  Helvetica, sans-serif;
+    background-color: #e0e0e0;
+    .container{
+        margin: 24px auto;
+        width : 800px;
+        .game-controls-data{
+            background: #fff;
+            padding: 18px;
+            border-radius: 5px;
+            box-shadow: 3px 3px 10px 2px #bdbdbd;
+        }
+
+        .speed{
+            font-size: 16px;
+            font-weight: 400;
+        }
+        .btn-group{
+            button{
+                margin-right: 10px;
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+        }
+        .flex{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .score{
+                font-size:  30px;
+                color: #2dbaaa;
+                font-weight: 600;
+                .font-sm{
+                    color: #212121;
+                    font-weight: 400;
+                    vertical-align: middle;
+                    font-size: 16px;
+                }
+            }
+        }
+        .slide-container {
+            width: 100%;
+            margin-top: 24px;
+              .slider {
+                    -webkit-appearance: none;
+                    width: 100%;
+                    height: 7px;
+                    border-radius: 5px;
+                    background: #bdbdbd;
+                    outline: none;
+                    -webkit-transition: .2s;
+                    transition: opacity .2s;
+
+                    &::-webkit-slider-thumb {
+                        -webkit-appearance: none;
+                        appearance: none;
+                        width: 25px;
+                        height: 25px;
+                        border-radius: 50%;
+                        background: #2dbaaa;
+                        cursor: pointer;
+                    }
+                    
+                    &::-moz-range-thumb {
+                        width: 25px;
+                        height: 25px;
+                        border-radius: 50%;
+                        background: #2dbaaa;
+                        cursor: pointer;
+                    }
+                }
+
+                
+        }
+        button {
+            background-color: #2dbaaa;
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            padding: 12px 28px;
+            border-radius: 4px;
+            outline:  0;
+            text-transform: uppercase;
+
+            &:focus, &:active{
+                outline:  0;
+            }
+
+            &:hover{
+                background-color:#209083;
+            }
+        }
+        .margin-bottom-l{
+            margin-bottom: 20px; 
+        }
+        #myCanvas { 
+           background: #fff;
+            display: block;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 3px 3px 10px 2px #bdbdbd;
+        }
+    }
+}

@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #e0e0e0;
+}
+body .container {
+  margin: 24px auto;
+  width: 800px;
+}
+body .container .game-controls-data {
+  background: #fff;
+  padding: 18px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px 2px #bdbdbd;
+}
+body .container .speed {
+  font-size: 16px;
+  font-weight: 400;
+}
+body .container .btn-group button {
+  margin-right: 10px;
+}
+body .container .btn-group button:last-child {
+  margin-right: 0;
+}
+body .container .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .container .flex .score {
+  font-size: 30px;
+  color: #2dbaaa;
+  font-weight: 600;
+}
+body .container .flex .score .font-sm {
+  color: #212121;
+  font-weight: 400;
+  vertical-align: middle;
+  font-size: 16px;
+}
+body .container .slide-container {
+  width: 100%;
+  margin-top: 24px;
+}
+body .container .slide-container .slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 7px;
+  border-radius: 5px;
+  background: #bdbdbd;
+  outline: none;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+body .container .slide-container .slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #2dbaaa;
+  cursor: pointer;
+}
+body .container .slide-container .slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #2dbaaa;
+  cursor: pointer;
+}
+body .container button {
+  background-color: #2dbaaa;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 12px 28px;
+  border-radius: 4px;
+  outline: 0;
+  text-transform: uppercase;
+}
+body .container button:focus, body .container button:active {
+  outline: 0;
+}
+body .container button:hover {
+  background-color: #209083;
+}
+body .container .margin-bottom-l {
+  margin-bottom: 20px;
+}
+body .container #myCanvas {
+  background: #fff;
+  display: block;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px 2px #bdbdbd;
+}
+
+/*# sourceMappingURL=main.css.map */

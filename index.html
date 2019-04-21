@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dot Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="game-controls-data">
+            <div class="flex">
+                <p id="user-score" class="score"> -- </p>
+                <div class="btn-group">
+                    <button id="controlBtn">start</button>
+                    <button id="restartBtn">restart</button>
+                    <button id="muteMusic">mute</button>
+                </div>
+            </div>
+            <div class="slide-container margin-bottom-l">
+                <input type="range" min="10" max="100" value="50" class="slider" id="myRange">
+            </div>
+            <div>
+                <p class="speed">Speed <span id="game-speed">(50)</span></p>
+            </div>
+
+        </div>
+        <div class="game-canvas">
+            <canvas id="myCanvas" width="800px" height="550px" ></canvas>
+        </div>
+        <audio  loop id="myAudio" src="https://mdn.github.io/webaudio-examples/multi-track/drums.mp3"></audio>
+        
+
+    </div>
+    <script src="index.js"></script>
+    <script src="util.js"></script>
+
+</body>
+
+</html>
